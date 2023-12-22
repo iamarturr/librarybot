@@ -16,6 +16,10 @@ This project is a telegram bot library for viewing books.
     ```plaintext
     BOT_TOKEN=your_bot_token_here
     ```
+    For example:
+    ```bash
+    echo "BOT_TOKEN=your_bot_token_here" > .env
+    ```
 
 3. Build and run the Docker containers:
 
