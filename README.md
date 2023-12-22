@@ -26,6 +26,11 @@ This project is a telegram bot library for viewing books.
     ```bash
     docker-compose up -d
     ```
+
+4. Command to turn off the bot
+    ```bash
+    docker-compose down
+    ```
 ## Windows Setup
 
 1. Download [Python 3.9+](https://www.python.org/downloads/release/python-390/)
