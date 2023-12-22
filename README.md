@@ -1,20 +1,19 @@
-# Telegram Bot Project
+# Librarybot
 
-This project is a Telegram bot implemented in Python using the aiogram library. It is Dockerized for easy deployment.
+This project is a telegram bot library for viewing books.
 
 ## Setup
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/protesians/librarybot.git
-    cd librarybot-project
+    git clone https://github.com/iamarturr/librarybot.git
+    cd librarybot
     ```
 
-2. Create a `.env` file in the project root and set the `TELEGRAM_BOT_TOKEN` variable:
+2. Create a `.env` file in the project root and set the `BOT_TOKEN` variable:
 
     ```plaintext
-    # .env
     BOT_TOKEN=your_bot_token_here
     ```
 
@@ -23,7 +22,22 @@ This project is a Telegram bot implemented in Python using the aiogram library. 
     ```bash
     docker-compose up -d
     ```
+## Windows Setup
 
+1. Download [Python 3.9+](https://www.python.org/downloads/release/python-390/)
+2. Download [this repository](https://github.com/iamarturr/librarybot).
+3. Create .env file in the project root
+   ```plaintext
+    BOT_TOKEN=your_bot_token_here
+    ```
+5. Install requirements
+    ```bash
+    python -r app/requirements.txt
+    ```
+6. Run bot
+    ```bash
+    python app/loader.py
+    ```
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[MIT](LICENSE)
