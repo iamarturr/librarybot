@@ -28,8 +28,8 @@ This project is a telegram bot library for viewing books.
 2. Download [this repository](https://github.com/iamarturr/librarybot).
 3. Create .env file in the project root
    ```plaintext
-    BOT_TOKEN=your_bot_token_here
-    ```
+   BOT_TOKEN=your_bot_token_here
+   ```
 5. Install requirements
     ```bash
     python -r app/requirements.txt
